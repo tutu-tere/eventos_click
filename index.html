@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petlopedia</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar con el logo, busqueda, boton inicio sesion  -->
+    <nav class="barra_navegacion">
+      <div class="col">
+        <h1 class="titulo_sitio">Petlopedia</h1>
+      </div>
+      <div class="col">
+        <input
+          type="text"
+          name="buscador"
+          id="buscador"
+          placeholder="Buscar mascota"
+        />
+      </div>
+      <div class="col">
+        <button class="boton_sesion">Iniciar Sesion</button>
+      </div>
+    </nav>
+    <!-- articulo de la petlopedia titulo, 
+    palabra cursiva, parrafos, 
+    boton de me gusta amarillo claro, 
+    con bordes redondeados en la esquina izquierda -->
+    <div class="prueba">
+      <article class="gato_atigrado">
+        <h2>Gato Atigrado</h2>
+        <p class="cursiva">Sustantivo</p>
+        <p class="gatito">Plural: Gatos atigrados</p>
+        <p class="gatito">
+          Un gato con un pelaje distintivo que presenta rayas, puntos o patrones
+          en remolino, usualmente con una marca en forma de "M" en su frente
+        </p>
+        <button class="me_gusta1">Me gusta</button>
+        <!-- parrafo mas boton -->
+      </article>
+      <aside class="apartado">
+        <p class="descripcion">Petlopedia esta definida por TI</p>
+        <button class="desaparece">Agregar definición</button>
+      </aside>
+    </div>
+
+    <article class="golden">
+      <h2>Golden Retriever</h2>
+      <p class="cursiva">Sustantivo</p>
+      <p class="perrito">Plural: Golden Retrievers</p>
+      <p class="perrito">
+        Un raza de perro amistosa, inteligente y devota, conocida por su pelaje
+        dorado y su habilidad para recuperar objetos sin dañarlos
+      </p>
+      <button class="me_gusta">Me gusta</button>
+    </article>
+    <script src="js/main.js"></script>
+  </body>
+</html>
